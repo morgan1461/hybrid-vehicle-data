@@ -1,0 +1,12 @@
+,quantitative/qualitative,type,description,notes
+date,quantiative,date,the date when the data entry was recorded,
+day_of_week,qualitative,date,day of week when data is recorded,
+time_of_day,qualitative,ordinal categorical,"morning 5am-11:59am, afternoon 12pm-5:59pm, evening 6pm-8:59pm, night 9pm-4:59am",recorded when drive ends
+duration,quantiative,time,duration recorded in minutes,recorded from drive summary screen
+mpg,quantiative,float,miles per gallon,recorded from drive summary screen
+miles_total,quantiative,float,total miles driven,recorded from drive summary screen
+miles_electric,quantiative,float,total miles driven on electricity alone,recorded from drive summary screen
+traffic,qualitative,ordinal categorical,"traffic condition: light, moderate, heavy",driver noted
+highway,qualitative,boolean,"indicator if highway was driven on, 1 highway drive, 0 city drive",
+passenger_load,quantiative,int,"total load of passengers in vehicle (min 1, max 4)",
+bed_load,qualitative,boolean,"indicator if load present in truck bed, 1 load present, 0 no load present",
